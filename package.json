@@ -12,7 +12,7 @@
     "precommit": "lint-staged",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
-    "clean": "rm -rf dist ./.visualizer ./node_modules/",
+    "clean": "rm -rf ./dist ./dev-dist/ ./.visualizer ./node_modules/",
     "visualize": "vite-bundle-visualizer --open --output ./.visualizer/stats.html",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0 --config eslint.config.js",
     "lint:fix": "eslint . --report-unused-disable-directives --max-warnings 0 --config eslint.config.js --fix",
@@ -20,7 +20,7 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/favicon.svg"
   },
   "husky": {
     "hooks": {
