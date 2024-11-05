@@ -15,7 +15,8 @@ get started quickly with modern web development practices.
 - **React**: A JavaScript library for building user interfaces.
 - **React Three Fiber**: A React renderer for Three.js.
 - **Vite**: A fast build tool and development server.
-- **TypeScript**: A strongly typed programming language that builds on
+- **Vite-PWA**: Generate assets for Progressive Web Apps.
+- **TypeScript - SWC**: A strongly typed programming language that builds on
   JavaScript.
 - **Tailwind CSS**: A utility-first CSS framework.
 - **ESLint**: A tool for identifying and fixing problems in JavaScript code.
@@ -24,7 +25,6 @@ get started quickly with modern web development practices.
 - **Lint-Staged**: Run linters on git staged files.
 - **Commitizen**: A tool to help you write commit messages.
 - **Standard Version**: Automate versioning and changelog generation.
-- **PWA Assets Generator**: Generate assets for Progressive Web Apps.
 
 ## Features
 
