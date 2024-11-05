@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
 import glsl from 'vite-plugin-glsl'
@@ -57,5 +58,10 @@ export default defineConfig({
     alias: {
       '@': '/src',
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/__tests__/setup.ts',
   },
 })

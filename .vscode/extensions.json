@@ -4,9 +4,10 @@
     "dbaeumer.vscode-eslint",
     "ms-vscode.vscode-typescript-next",
     "bradlc.vscode-tailwindcss",
-    "antfu.vite",
     "xabikos.javascriptsnippets",
     "christian-kohler.path-intellisense",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "antfu.vite",
+    "vitest.explorer"
   ]
 }
