@@ -25,6 +25,7 @@ get started quickly with modern web development practices.
 - **Lint-Staged**: Run linters on git staged files.
 - **Commitizen**: A tool to help you write commit messages.
 - **Standard Version**: Automate versioning and changelog generation.
+- **Vitest**: A Vite-native unit test framework.
 
 ## Features
 
@@ -35,3 +36,4 @@ get started quickly with modern web development practices.
 - **Commit Standards**: Use Commitizen and Standard Version for consistent
   commit messages and versioning.
 - **PWA Support**: Easily generate assets for Progressive Web Apps.
+- Unit testing with Vitest.
