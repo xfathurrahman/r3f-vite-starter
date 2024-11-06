@@ -10,7 +10,10 @@ This project is a starter template for building applications with React Three
 Fiber (R3F) and Vite. It includes a set of tools and configurations to help you
 get started quickly with modern web development practices.
 
-## Tech Stack
+## Stack
+
+So far, Bun is working perfectly for this project. <br> <br>
+![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)
 
 - **React**: A JavaScript library for building user interfaces.
 - **React Three Fiber**: A React renderer for Three.js.
@@ -36,4 +39,7 @@ get started quickly with modern web development practices.
 - **Commit Standards**: Use Commitizen and Standard Version for consistent
   commit messages and versioning.
 - **PWA Support**: Easily generate assets for Progressive Web Apps.
-- Unit testing with Vitest.
+- Unit testing with Vitest. ( Works for Three Object too ✨ )
+### Test result with Vitest UI
+
+![Vitest](https://github.com/user-attachments/assets/5af6e64c-c88a-456e-92b0-d7926312b63b)
