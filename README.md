@@ -1,4 +1,4 @@
-# R3F - Vite - Starter
+# React + Three Fiber - Vite - Starter
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0b478e1f-c25d-4963-bb20-4df192901768" alt="evZ0KX" width="600"/>
@@ -39,7 +39,7 @@ So far, Bun is working perfectly for this project. <br> <br>
 - **Commit Standards**: Use Commitizen and Standard Version for consistent
   commit messages and versioning.
 - **PWA Support**: Easily generate assets for Progressive Web Apps.
-- Unit testing with Vitest. ( Works for Three Object too ✨ )
+- **Unit testing** with Vitest. ( Works for Three Object too ✨ )
 ### Test result with Vitest UI
 
 ![Vitest](https://github.com/user-attachments/assets/5af6e64c-c88a-456e-92b0-d7926312b63b)
