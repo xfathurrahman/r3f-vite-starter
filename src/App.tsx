@@ -1,5 +1,9 @@
 import { useState } from 'react'
 
+import { Canvas } from '@react-three/fiber'
+
+import Box from './components/Box'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -8,6 +12,12 @@ function App() {
       <div className='absolute bottom-20 mb-2 rounded-lg bg-green-500 p-10 text-white'>
         <h1 className='text-4xl'>{count}</h1>
       </div>
+      <Canvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Box position={[-1.2, 0, 0]} />
+        <Box position={[1.2, 0, 0]} />
+      </Canvas>
       <div className='absolute bottom-10 flex items-center justify-center space-x-2'>
         {['Decrease', 'Increase'].map((action) => (
           <div
